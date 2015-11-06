@@ -7,290 +7,225 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F6141F6617C6A725003455EB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6141F6517C6A725003455EB /* UIKit.framework */; };
-		F6141F6817C6A725003455EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6141F6717C6A725003455EB /* Foundation.framework */; };
-		F6141F6A17C6A725003455EB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6141F6917C6A725003455EB /* CoreGraphics.framework */; };
-		F6141F7017C6A725003455EB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F6141F6E17C6A725003455EB /* InfoPlist.strings */; };
-		F6141F7217C6A725003455EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141F7117C6A725003455EB /* main.m */; };
-		F6141F7617C6A725003455EB /* TSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141F7517C6A725003455EB /* TSAppDelegate.m */; };
-		F6141F7817C6A725003455EB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141F7717C6A725003455EB /* Default.png */; };
-		F6141F7A17C6A725003455EB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141F7917C6A725003455EB /* Default@2x.png */; };
-		F6141F7C17C6A725003455EB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6141F7B17C6A725003455EB /* Default-568h@2x.png */; };
-		F6141FB717C6A76F003455EB /* TSUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141F8617C6A76F003455EB /* TSUtils.m */; };
-		F6141FBB17C6A76F003455EB /* TSTableViewContentHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141F9517C6A76F003455EB /* TSTableViewContentHolder.m */; };
-		F6141FBC17C6A76F003455EB /* TSTableViewExpandControlPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141F9717C6A76F003455EB /* TSTableViewExpandControlPanel.m */; };
-		F6141FBD17C6A76F003455EB /* TSTableViewExpandSection.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141F9917C6A76F003455EB /* TSTableViewExpandSection.m */; };
-		F6141FBE17C6A76F003455EB /* TSTableViewHeaderPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141F9B17C6A76F003455EB /* TSTableViewHeaderPanel.m */; };
-		F6141FBF17C6A76F003455EB /* TSTableViewHeaderSection.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141F9D17C6A76F003455EB /* TSTableViewHeaderSection.m */; };
-		F6141FC017C6A76F003455EB /* TSTableViewRow.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141F9F17C6A76F003455EB /* TSTableViewRow.m */; };
-		F6141FC117C6A76F003455EB /* TSTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141FA117C6A76F003455EB /* TSTableView.m */; };
-		F6141FC217C6A76F003455EB /* TSTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141FA317C6A76F003455EB /* TSTableViewCell.m */; };
-		F6141FC317C6A76F003455EB /* TSTableViewHeaderSectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141FA717C6A76F003455EB /* TSTableViewHeaderSectionView.m */; };
-		F6141FC417C6A76F003455EB /* TSTableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141FA917C6A76F003455EB /* TSTableViewModel.m */; };
-		F6141FD217C6A80F003455EB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F6141FCA17C6A80E003455EB /* InfoPlist.strings */; };
-		F6141FD317C6A80F003455EB /* TSTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6141FCC17C6A80E003455EB /* TSTableViewController.xib */; };
-		F6141FD417C6A80F003455EB /* TSTableViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6141FCE17C6A80E003455EB /* TSTableViewController~ipad.xib */; };
-		F6141FD517C6A80F003455EB /* TSTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6141FD117C6A80E003455EB /* TSTableViewController.m */; };
-		F657419117CD891400826563 /* TSTableViewController+TestDataDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = F657419017CD891400826563 /* TSTableViewController+TestDataDefinition.m */; };
-		F657420717CD893B00826563 /* TableViewFileIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F65741CC17CD893B00826563 /* TableViewFileIcon.png */; };
-		F657420817CD893B00826563 /* TableViewFolderIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F65741CD17CD893B00826563 /* TableViewFolderIcon.png */; };
-		F657420917CD893B00826563 /* TableViewPackageIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F65741CE17CD893B00826563 /* TableViewPackageIcon.png */; };
-		F657420A17CD893B00826563 /* TableViewFileIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F65741D017CD893B00826563 /* TableViewFileIcon@2x.png */; };
-		F657420B17CD893B00826563 /* TableViewFolderIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F65741D117CD893B00826563 /* TableViewFolderIcon@2x.png */; };
-		F657420C17CD893B00826563 /* TableViewPackageIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F65741D217CD893B00826563 /* TableViewPackageIcon@2x.png */; };
+		82E724F31BECB06F00C7BAF9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82E724F21BECB06F00C7BAF9 /* UIKit.framework */; };
+		82E725111BECB0BB00C7BAF9 /* TSDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 82E724F51BECB0BB00C7BAF9 /* TSDefines.h */; };
+		82E725121BECB0BB00C7BAF9 /* TSUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 82E724F61BECB0BB00C7BAF9 /* TSUtils.h */; };
+		82E725131BECB0BB00C7BAF9 /* TSUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E724F71BECB0BB00C7BAF9 /* TSUtils.m */; };
+		82E725141BECB0BB00C7BAF9 /* TSTableViewAppearanceCoordinator.h in Headers */ = {isa = PBXBuildFile; fileRef = 82E724FA1BECB0BB00C7BAF9 /* TSTableViewAppearanceCoordinator.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		82E725151BECB0BB00C7BAF9 /* TSTableViewContentHolder.h in Headers */ = {isa = PBXBuildFile; fileRef = 82E724FB1BECB0BB00C7BAF9 /* TSTableViewContentHolder.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		82E725161BECB0BB00C7BAF9 /* TSTableViewContentHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E724FC1BECB0BB00C7BAF9 /* TSTableViewContentHolder.m */; };
+		82E725171BECB0BB00C7BAF9 /* TSTableViewExpandControlPanel.h in Headers */ = {isa = PBXBuildFile; fileRef = 82E724FD1BECB0BB00C7BAF9 /* TSTableViewExpandControlPanel.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		82E725181BECB0BB00C7BAF9 /* TSTableViewExpandControlPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E724FE1BECB0BB00C7BAF9 /* TSTableViewExpandControlPanel.m */; };
+		82E725191BECB0BB00C7BAF9 /* TSTableViewExpandSection.h in Headers */ = {isa = PBXBuildFile; fileRef = 82E724FF1BECB0BB00C7BAF9 /* TSTableViewExpandSection.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		82E7251A1BECB0BB00C7BAF9 /* TSTableViewExpandSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E725001BECB0BB00C7BAF9 /* TSTableViewExpandSection.m */; };
+		82E7251B1BECB0BB00C7BAF9 /* TSTableViewHeaderPanel.h in Headers */ = {isa = PBXBuildFile; fileRef = 82E725011BECB0BB00C7BAF9 /* TSTableViewHeaderPanel.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		82E7251C1BECB0BB00C7BAF9 /* TSTableViewHeaderPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E725021BECB0BB00C7BAF9 /* TSTableViewHeaderPanel.m */; };
+		82E7251D1BECB0BB00C7BAF9 /* TSTableViewHeaderSection.h in Headers */ = {isa = PBXBuildFile; fileRef = 82E725031BECB0BB00C7BAF9 /* TSTableViewHeaderSection.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		82E7251E1BECB0BB00C7BAF9 /* TSTableViewHeaderSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E725041BECB0BB00C7BAF9 /* TSTableViewHeaderSection.m */; };
+		82E7251F1BECB0BB00C7BAF9 /* TSTableViewRow.h in Headers */ = {isa = PBXBuildFile; fileRef = 82E725051BECB0BB00C7BAF9 /* TSTableViewRow.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		82E725201BECB0BB00C7BAF9 /* TSTableViewRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E725061BECB0BB00C7BAF9 /* TSTableViewRow.m */; };
+		82E725211BECB0BB00C7BAF9 /* TSTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 82E725071BECB0BB00C7BAF9 /* TSTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82E725221BECB0BB00C7BAF9 /* TSTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E725081BECB0BB00C7BAF9 /* TSTableView.m */; };
+		82E725231BECB0BB00C7BAF9 /* TSTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 82E725091BECB0BB00C7BAF9 /* TSTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82E725241BECB0BB00C7BAF9 /* TSTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E7250A1BECB0BB00C7BAF9 /* TSTableViewCell.m */; };
+		82E725251BECB0BB00C7BAF9 /* TSTableViewDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 82E7250B1BECB0BB00C7BAF9 /* TSTableViewDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82E725261BECB0BB00C7BAF9 /* TSTableViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 82E7250C1BECB0BB00C7BAF9 /* TSTableViewDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82E725271BECB0BB00C7BAF9 /* TSTableViewHeaderSectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 82E7250D1BECB0BB00C7BAF9 /* TSTableViewHeaderSectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82E725281BECB0BB00C7BAF9 /* TSTableViewHeaderSectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E7250E1BECB0BB00C7BAF9 /* TSTableViewHeaderSectionView.m */; };
+		82E725291BECB0BB00C7BAF9 /* TSTableViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 82E7250F1BECB0BB00C7BAF9 /* TSTableViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82E7252A1BECB0BB00C7BAF9 /* TSTableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E725101BECB0BB00C7BAF9 /* TSTableViewModel.m */; };
+		82E7252E1BECB15B00C7BAF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82E7252D1BECB15B00C7BAF9 /* Foundation.framework */; };
+		82E725301BECB16000C7BAF9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82E7252F1BECB16000C7BAF9 /* CoreGraphics.framework */; };
+		82E725381BECB9A000C7BAF9 /* TSTableViewContentHolder.m in Headers */ = {isa = PBXBuildFile; fileRef = 82E724FC1BECB0BB00C7BAF9 /* TSTableViewContentHolder.m */; settings = {ATTRIBUTES = (Private, ); }; };
+		82E725391BECB9A000C7BAF9 /* TSTableViewExpandControlPanel.m in Headers */ = {isa = PBXBuildFile; fileRef = 82E724FE1BECB0BB00C7BAF9 /* TSTableViewExpandControlPanel.m */; settings = {ATTRIBUTES = (Private, ); }; };
+		82E7253A1BECB9A000C7BAF9 /* TSTableViewExpandSection.m in Headers */ = {isa = PBXBuildFile; fileRef = 82E725001BECB0BB00C7BAF9 /* TSTableViewExpandSection.m */; settings = {ATTRIBUTES = (Private, ); }; };
+		82E7253B1BECB9A000C7BAF9 /* TSTableViewHeaderPanel.m in Headers */ = {isa = PBXBuildFile; fileRef = 82E725021BECB0BB00C7BAF9 /* TSTableViewHeaderPanel.m */; settings = {ATTRIBUTES = (Private, ); }; };
+		82E7253C1BECB9A000C7BAF9 /* TSTableViewHeaderSection.m in Headers */ = {isa = PBXBuildFile; fileRef = 82E725041BECB0BB00C7BAF9 /* TSTableViewHeaderSection.m */; settings = {ATTRIBUTES = (Private, ); }; };
+		82E7253D1BECB9A000C7BAF9 /* TSTableViewRow.m in Headers */ = {isa = PBXBuildFile; fileRef = 82E725061BECB0BB00C7BAF9 /* TSTableViewRow.m */; settings = {ATTRIBUTES = (Private, ); }; };
+		82E725401BECBB6C00C7BAF9 /* TSTableViewAppearanceHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 82E7253E1BECBB6C00C7BAF9 /* TSTableViewAppearanceHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82E725411BECBB6C00C7BAF9 /* TSTableViewAppearanceHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E7253F1BECBB6C00C7BAF9 /* TSTableViewAppearanceHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F6141F6217C6A725003455EB /* TSTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TSTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F6141F6517C6A725003455EB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		F6141F6717C6A725003455EB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		F6141F6917C6A725003455EB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		F6141F6D17C6A725003455EB /* TSTableView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TSTableView-Info.plist"; sourceTree = "<group>"; };
-		F6141F6F17C6A725003455EB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		F6141F7117C6A725003455EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F6141F7317C6A725003455EB /* TSTableView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TSTableView-Prefix.pch"; sourceTree = "<group>"; };
-		F6141F7417C6A725003455EB /* TSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSAppDelegate.h; sourceTree = "<group>"; };
-		F6141F7517C6A725003455EB /* TSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSAppDelegate.m; sourceTree = "<group>"; };
-		F6141F7717C6A725003455EB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		F6141F7917C6A725003455EB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		F6141F7B17C6A725003455EB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		F6141F8417C6A76F003455EB /* TSDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSDefines.h; sourceTree = "<group>"; };
-		F6141F8517C6A76F003455EB /* TSUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSUtils.h; sourceTree = "<group>"; };
-		F6141F8617C6A76F003455EB /* TSUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSUtils.m; sourceTree = "<group>"; };
-		F6141F9317C6A76F003455EB /* TSTableViewAppearanceCoordinator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTableViewAppearanceCoordinator.h; sourceTree = "<group>"; };
-		F6141F9417C6A76F003455EB /* TSTableViewContentHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTableViewContentHolder.h; sourceTree = "<group>"; };
-		F6141F9517C6A76F003455EB /* TSTableViewContentHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSTableViewContentHolder.m; sourceTree = "<group>"; };
-		F6141F9617C6A76F003455EB /* TSTableViewExpandControlPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTableViewExpandControlPanel.h; sourceTree = "<group>"; };
-		F6141F9717C6A76F003455EB /* TSTableViewExpandControlPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSTableViewExpandControlPanel.m; sourceTree = "<group>"; };
-		F6141F9817C6A76F003455EB /* TSTableViewExpandSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTableViewExpandSection.h; sourceTree = "<group>"; };
-		F6141F9917C6A76F003455EB /* TSTableViewExpandSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSTableViewExpandSection.m; sourceTree = "<group>"; };
-		F6141F9A17C6A76F003455EB /* TSTableViewHeaderPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTableViewHeaderPanel.h; sourceTree = "<group>"; };
-		F6141F9B17C6A76F003455EB /* TSTableViewHeaderPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSTableViewHeaderPanel.m; sourceTree = "<group>"; };
-		F6141F9C17C6A76F003455EB /* TSTableViewHeaderSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTableViewHeaderSection.h; sourceTree = "<group>"; };
-		F6141F9D17C6A76F003455EB /* TSTableViewHeaderSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSTableViewHeaderSection.m; sourceTree = "<group>"; };
-		F6141F9E17C6A76F003455EB /* TSTableViewRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTableViewRow.h; sourceTree = "<group>"; };
-		F6141F9F17C6A76F003455EB /* TSTableViewRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSTableViewRow.m; sourceTree = "<group>"; };
-		F6141FA017C6A76F003455EB /* TSTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTableView.h; sourceTree = "<group>"; };
-		F6141FA117C6A76F003455EB /* TSTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSTableView.m; sourceTree = "<group>"; };
-		F6141FA217C6A76F003455EB /* TSTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTableViewCell.h; sourceTree = "<group>"; };
-		F6141FA317C6A76F003455EB /* TSTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSTableViewCell.m; sourceTree = "<group>"; };
-		F6141FA417C6A76F003455EB /* TSTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTableViewDataSource.h; sourceTree = "<group>"; };
-		F6141FA517C6A76F003455EB /* TSTableViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTableViewDelegate.h; sourceTree = "<group>"; };
-		F6141FA617C6A76F003455EB /* TSTableViewHeaderSectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTableViewHeaderSectionView.h; sourceTree = "<group>"; };
-		F6141FA717C6A76F003455EB /* TSTableViewHeaderSectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSTableViewHeaderSectionView.m; sourceTree = "<group>"; };
-		F6141FA817C6A76F003455EB /* TSTableViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTableViewModel.h; sourceTree = "<group>"; };
-		F6141FA917C6A76F003455EB /* TSTableViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSTableViewModel.m; sourceTree = "<group>"; };
-		F6141FCB17C6A80E003455EB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
-		F6141FCD17C6A80E003455EB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = TSTableViewController.xib; sourceTree = "<group>"; };
-		F6141FCF17C6A80E003455EB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "TSTableViewController~ipad.xib"; sourceTree = "<group>"; };
-		F6141FD017C6A80E003455EB /* TSTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTableViewController.h; sourceTree = "<group>"; };
-		F6141FD117C6A80E003455EB /* TSTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSTableViewController.m; sourceTree = "<group>"; };
-		F657418F17CD891400826563 /* TSTableViewController+TestDataDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TSTableViewController+TestDataDefinition.h"; sourceTree = "<group>"; };
-		F657419017CD891400826563 /* TSTableViewController+TestDataDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TSTableViewController+TestDataDefinition.m"; sourceTree = "<group>"; };
-		F65741CC17CD893B00826563 /* TableViewFileIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TableViewFileIcon.png; sourceTree = "<group>"; };
-		F65741CD17CD893B00826563 /* TableViewFolderIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TableViewFolderIcon.png; sourceTree = "<group>"; };
-		F65741CE17CD893B00826563 /* TableViewPackageIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TableViewPackageIcon.png; sourceTree = "<group>"; };
-		F65741D017CD893B00826563 /* TableViewFileIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TableViewFileIcon@2x.png"; sourceTree = "<group>"; };
-		F65741D117CD893B00826563 /* TableViewFolderIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TableViewFolderIcon@2x.png"; sourceTree = "<group>"; };
-		F65741D217CD893B00826563 /* TableViewPackageIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TableViewPackageIcon@2x.png"; sourceTree = "<group>"; };
+		82E724E71BECB05C00C7BAF9 /* TSTableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TSTableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82E724EC1BECB05C00C7BAF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82E724F21BECB06F00C7BAF9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		82E724F51BECB0BB00C7BAF9 /* TSDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSDefines.h; sourceTree = "<group>"; };
+		82E724F61BECB0BB00C7BAF9 /* TSUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSUtils.h; sourceTree = "<group>"; };
+		82E724F71BECB0BB00C7BAF9 /* TSUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSUtils.m; sourceTree = "<group>"; };
+		82E724FA1BECB0BB00C7BAF9 /* TSTableViewAppearanceCoordinator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTableViewAppearanceCoordinator.h; sourceTree = "<group>"; };
+		82E724FB1BECB0BB00C7BAF9 /* TSTableViewContentHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTableViewContentHolder.h; sourceTree = "<group>"; };
+		82E724FC1BECB0BB00C7BAF9 /* TSTableViewContentHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSTableViewContentHolder.m; sourceTree = "<group>"; };
+		82E724FD1BECB0BB00C7BAF9 /* TSTableViewExpandControlPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTableViewExpandControlPanel.h; sourceTree = "<group>"; };
+		82E724FE1BECB0BB00C7BAF9 /* TSTableViewExpandControlPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSTableViewExpandControlPanel.m; sourceTree = "<group>"; };
+		82E724FF1BECB0BB00C7BAF9 /* TSTableViewExpandSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTableViewExpandSection.h; sourceTree = "<group>"; };
+		82E725001BECB0BB00C7BAF9 /* TSTableViewExpandSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSTableViewExpandSection.m; sourceTree = "<group>"; };
+		82E725011BECB0BB00C7BAF9 /* TSTableViewHeaderPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTableViewHeaderPanel.h; sourceTree = "<group>"; };
+		82E725021BECB0BB00C7BAF9 /* TSTableViewHeaderPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSTableViewHeaderPanel.m; sourceTree = "<group>"; };
+		82E725031BECB0BB00C7BAF9 /* TSTableViewHeaderSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTableViewHeaderSection.h; sourceTree = "<group>"; };
+		82E725041BECB0BB00C7BAF9 /* TSTableViewHeaderSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSTableViewHeaderSection.m; sourceTree = "<group>"; };
+		82E725051BECB0BB00C7BAF9 /* TSTableViewRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTableViewRow.h; sourceTree = "<group>"; };
+		82E725061BECB0BB00C7BAF9 /* TSTableViewRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSTableViewRow.m; sourceTree = "<group>"; };
+		82E725071BECB0BB00C7BAF9 /* TSTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTableView.h; sourceTree = "<group>"; };
+		82E725081BECB0BB00C7BAF9 /* TSTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSTableView.m; sourceTree = "<group>"; };
+		82E725091BECB0BB00C7BAF9 /* TSTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTableViewCell.h; sourceTree = "<group>"; };
+		82E7250A1BECB0BB00C7BAF9 /* TSTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSTableViewCell.m; sourceTree = "<group>"; };
+		82E7250B1BECB0BB00C7BAF9 /* TSTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTableViewDataSource.h; sourceTree = "<group>"; };
+		82E7250C1BECB0BB00C7BAF9 /* TSTableViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTableViewDelegate.h; sourceTree = "<group>"; };
+		82E7250D1BECB0BB00C7BAF9 /* TSTableViewHeaderSectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTableViewHeaderSectionView.h; sourceTree = "<group>"; };
+		82E7250E1BECB0BB00C7BAF9 /* TSTableViewHeaderSectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSTableViewHeaderSectionView.m; sourceTree = "<group>"; };
+		82E7250F1BECB0BB00C7BAF9 /* TSTableViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTableViewModel.h; sourceTree = "<group>"; };
+		82E725101BECB0BB00C7BAF9 /* TSTableViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSTableViewModel.m; sourceTree = "<group>"; };
+		82E7252D1BECB15B00C7BAF9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		82E7252F1BECB16000C7BAF9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		82E7253E1BECBB6C00C7BAF9 /* TSTableViewAppearanceHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSTableViewAppearanceHelper.h; sourceTree = "<group>"; };
+		82E7253F1BECBB6C00C7BAF9 /* TSTableViewAppearanceHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSTableViewAppearanceHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F6141F5F17C6A725003455EB /* Frameworks */ = {
+		82E724E31BECB05C00C7BAF9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6141F6617C6A725003455EB /* UIKit.framework in Frameworks */,
-				F6141F6817C6A725003455EB /* Foundation.framework in Frameworks */,
-				F6141F6A17C6A725003455EB /* CoreGraphics.framework in Frameworks */,
+				82E725301BECB16000C7BAF9 /* CoreGraphics.framework in Frameworks */,
+				82E7252E1BECB15B00C7BAF9 /* Foundation.framework in Frameworks */,
+				82E724F31BECB06F00C7BAF9 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F6141F5917C6A725003455EB = {
+		82E724DD1BECB05C00C7BAF9 = {
 			isa = PBXGroup;
 			children = (
-				F657419217CD893B00826563 /* SharedResources */,
-				F6141F8217C6A76F003455EB /* TSUIKit */,
-				F6141F6B17C6A725003455EB /* TSTableView */,
-				F6141F6417C6A725003455EB /* Frameworks */,
-				F6141F6317C6A725003455EB /* Products */,
+				82E724E91BECB05C00C7BAF9 /* TSTableView */,
+				82E725311BECB18000C7BAF9 /* Frameworks */,
+				82E724E81BECB05C00C7BAF9 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F6141F6317C6A725003455EB /* Products */ = {
+		82E724E81BECB05C00C7BAF9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F6141F6217C6A725003455EB /* TSTableView.app */,
+				82E724E71BECB05C00C7BAF9 /* TSTableView.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F6141F6417C6A725003455EB /* Frameworks */ = {
+		82E724E91BECB05C00C7BAF9 /* TSTableView */ = {
 			isa = PBXGroup;
 			children = (
-				F6141F6517C6A725003455EB /* UIKit.framework */,
-				F6141F6717C6A725003455EB /* Foundation.framework */,
-				F6141F6917C6A725003455EB /* CoreGraphics.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		F6141F6B17C6A725003455EB /* TSTableView */ = {
-			isa = PBXGroup;
-			children = (
-				F657418F17CD891400826563 /* TSTableViewController+TestDataDefinition.h */,
-				F657419017CD891400826563 /* TSTableViewController+TestDataDefinition.m */,
-				F6141FC917C6A80E003455EB /* en.lproj */,
-				F6141FD017C6A80E003455EB /* TSTableViewController.h */,
-				F6141FD117C6A80E003455EB /* TSTableViewController.m */,
-				F6141F7417C6A725003455EB /* TSAppDelegate.h */,
-				F6141F7517C6A725003455EB /* TSAppDelegate.m */,
-				F6141F6C17C6A725003455EB /* Supporting Files */,
+				82E724F41BECB0BB00C7BAF9 /* TSMisc */,
+				82E724F81BECB0BB00C7BAF9 /* TSTableView */,
+				82E724EC1BECB05C00C7BAF9 /* Info.plist */,
 			);
 			path = TSTableView;
 			sourceTree = "<group>";
 		};
-		F6141F6C17C6A725003455EB /* Supporting Files */ = {
+		82E724F41BECB0BB00C7BAF9 /* TSMisc */ = {
 			isa = PBXGroup;
 			children = (
-				F6141F6D17C6A725003455EB /* TSTableView-Info.plist */,
-				F6141F6E17C6A725003455EB /* InfoPlist.strings */,
-				F6141F7117C6A725003455EB /* main.m */,
-				F6141F7317C6A725003455EB /* TSTableView-Prefix.pch */,
-				F6141F7717C6A725003455EB /* Default.png */,
-				F6141F7917C6A725003455EB /* Default@2x.png */,
-				F6141F7B17C6A725003455EB /* Default-568h@2x.png */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		F6141F8217C6A76F003455EB /* TSUIKit */ = {
-			isa = PBXGroup;
-			children = (
-				F6141F8317C6A76F003455EB /* TSMisc */,
-				F6141F9117C6A76F003455EB /* TSTableView */,
-			);
-			name = TSUIKit;
-			path = ../Classes/TSUIKit;
-			sourceTree = "<group>";
-		};
-		F6141F8317C6A76F003455EB /* TSMisc */ = {
-			isa = PBXGroup;
-			children = (
-				F6141F8417C6A76F003455EB /* TSDefines.h */,
-				F6141F8517C6A76F003455EB /* TSUtils.h */,
-				F6141F8617C6A76F003455EB /* TSUtils.m */,
+				82E724F51BECB0BB00C7BAF9 /* TSDefines.h */,
+				82E724F61BECB0BB00C7BAF9 /* TSUtils.h */,
+				82E724F71BECB0BB00C7BAF9 /* TSUtils.m */,
 			);
 			path = TSMisc;
 			sourceTree = "<group>";
 		};
-		F6141F9117C6A76F003455EB /* TSTableView */ = {
+		82E724F81BECB0BB00C7BAF9 /* TSTableView */ = {
 			isa = PBXGroup;
 			children = (
-				F6141F9217C6A76F003455EB /* Private */,
-				F6141FA017C6A76F003455EB /* TSTableView.h */,
-				F6141FA117C6A76F003455EB /* TSTableView.m */,
-				F6141FA217C6A76F003455EB /* TSTableViewCell.h */,
-				F6141FA317C6A76F003455EB /* TSTableViewCell.m */,
-				F6141FA417C6A76F003455EB /* TSTableViewDataSource.h */,
-				F6141FA517C6A76F003455EB /* TSTableViewDelegate.h */,
-				F6141FA617C6A76F003455EB /* TSTableViewHeaderSectionView.h */,
-				F6141FA717C6A76F003455EB /* TSTableViewHeaderSectionView.m */,
-				F6141FA817C6A76F003455EB /* TSTableViewModel.h */,
-				F6141FA917C6A76F003455EB /* TSTableViewModel.m */,
+				82E724F91BECB0BB00C7BAF9 /* Private */,
+				82E725071BECB0BB00C7BAF9 /* TSTableView.h */,
+				82E725081BECB0BB00C7BAF9 /* TSTableView.m */,
+				82E725091BECB0BB00C7BAF9 /* TSTableViewCell.h */,
+				82E7250A1BECB0BB00C7BAF9 /* TSTableViewCell.m */,
+				82E7250B1BECB0BB00C7BAF9 /* TSTableViewDataSource.h */,
+				82E7250C1BECB0BB00C7BAF9 /* TSTableViewDelegate.h */,
+				82E7250D1BECB0BB00C7BAF9 /* TSTableViewHeaderSectionView.h */,
+				82E7250E1BECB0BB00C7BAF9 /* TSTableViewHeaderSectionView.m */,
+				82E7250F1BECB0BB00C7BAF9 /* TSTableViewModel.h */,
+				82E725101BECB0BB00C7BAF9 /* TSTableViewModel.m */,
+				82E7253E1BECBB6C00C7BAF9 /* TSTableViewAppearanceHelper.h */,
+				82E7253F1BECBB6C00C7BAF9 /* TSTableViewAppearanceHelper.m */,
 			);
 			path = TSTableView;
 			sourceTree = "<group>";
 		};
-		F6141F9217C6A76F003455EB /* Private */ = {
+		82E724F91BECB0BB00C7BAF9 /* Private */ = {
 			isa = PBXGroup;
 			children = (
-				F6141F9317C6A76F003455EB /* TSTableViewAppearanceCoordinator.h */,
-				F6141F9417C6A76F003455EB /* TSTableViewContentHolder.h */,
-				F6141F9517C6A76F003455EB /* TSTableViewContentHolder.m */,
-				F6141F9617C6A76F003455EB /* TSTableViewExpandControlPanel.h */,
-				F6141F9717C6A76F003455EB /* TSTableViewExpandControlPanel.m */,
-				F6141F9817C6A76F003455EB /* TSTableViewExpandSection.h */,
-				F6141F9917C6A76F003455EB /* TSTableViewExpandSection.m */,
-				F6141F9A17C6A76F003455EB /* TSTableViewHeaderPanel.h */,
-				F6141F9B17C6A76F003455EB /* TSTableViewHeaderPanel.m */,
-				F6141F9C17C6A76F003455EB /* TSTableViewHeaderSection.h */,
-				F6141F9D17C6A76F003455EB /* TSTableViewHeaderSection.m */,
-				F6141F9E17C6A76F003455EB /* TSTableViewRow.h */,
-				F6141F9F17C6A76F003455EB /* TSTableViewRow.m */,
+				82E724FA1BECB0BB00C7BAF9 /* TSTableViewAppearanceCoordinator.h */,
+				82E724FB1BECB0BB00C7BAF9 /* TSTableViewContentHolder.h */,
+				82E724FC1BECB0BB00C7BAF9 /* TSTableViewContentHolder.m */,
+				82E724FD1BECB0BB00C7BAF9 /* TSTableViewExpandControlPanel.h */,
+				82E724FE1BECB0BB00C7BAF9 /* TSTableViewExpandControlPanel.m */,
+				82E724FF1BECB0BB00C7BAF9 /* TSTableViewExpandSection.h */,
+				82E725001BECB0BB00C7BAF9 /* TSTableViewExpandSection.m */,
+				82E725011BECB0BB00C7BAF9 /* TSTableViewHeaderPanel.h */,
+				82E725021BECB0BB00C7BAF9 /* TSTableViewHeaderPanel.m */,
+				82E725031BECB0BB00C7BAF9 /* TSTableViewHeaderSection.h */,
+				82E725041BECB0BB00C7BAF9 /* TSTableViewHeaderSection.m */,
+				82E725051BECB0BB00C7BAF9 /* TSTableViewRow.h */,
+				82E725061BECB0BB00C7BAF9 /* TSTableViewRow.m */,
 			);
 			path = Private;
 			sourceTree = "<group>";
 		};
-		F6141FC917C6A80E003455EB /* en.lproj */ = {
+		82E725311BECB18000C7BAF9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F6141FCA17C6A80E003455EB /* InfoPlist.strings */,
-				F6141FCC17C6A80E003455EB /* TSTableViewController.xib */,
-				F6141FCE17C6A80E003455EB /* TSTableViewController~ipad.xib */,
+				82E7252D1BECB15B00C7BAF9 /* Foundation.framework */,
+				82E7252F1BECB16000C7BAF9 /* CoreGraphics.framework */,
+				82E724F21BECB06F00C7BAF9 /* UIKit.framework */,
 			);
-			path = en.lproj;
-			sourceTree = "<group>";
-		};
-		F657419217CD893B00826563 /* SharedResources */ = {
-			isa = PBXGroup;
-			children = (
-				F657419317CD893B00826563 /* Textures */,
-			);
-			name = SharedResources;
-			path = ../SharedResources;
-			sourceTree = "<group>";
-		};
-		F657419317CD893B00826563 /* Textures */ = {
-			isa = PBXGroup;
-			children = (
-				F65741CA17CD893B00826563 /* TableView */,
-			);
-			path = Textures;
-			sourceTree = "<group>";
-		};
-		F65741CA17CD893B00826563 /* TableView */ = {
-			isa = PBXGroup;
-			children = (
-				F65741CB17CD893B00826563 /* 1x */,
-				F65741CF17CD893B00826563 /* 2x */,
-			);
-			path = TableView;
-			sourceTree = "<group>";
-		};
-		F65741CB17CD893B00826563 /* 1x */ = {
-			isa = PBXGroup;
-			children = (
-				F65741CC17CD893B00826563 /* TableViewFileIcon.png */,
-				F65741CD17CD893B00826563 /* TableViewFolderIcon.png */,
-				F65741CE17CD893B00826563 /* TableViewPackageIcon.png */,
-			);
-			path = 1x;
-			sourceTree = "<group>";
-		};
-		F65741CF17CD893B00826563 /* 2x */ = {
-			isa = PBXGroup;
-			children = (
-				F65741D017CD893B00826563 /* TableViewFileIcon@2x.png */,
-				F65741D117CD893B00826563 /* TableViewFolderIcon@2x.png */,
-				F65741D217CD893B00826563 /* TableViewPackageIcon@2x.png */,
-			);
-			path = 2x;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		82E724E41BECB05C00C7BAF9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82E725211BECB0BB00C7BAF9 /* TSTableView.h in Headers */,
+				82E725231BECB0BB00C7BAF9 /* TSTableViewCell.h in Headers */,
+				82E725251BECB0BB00C7BAF9 /* TSTableViewDataSource.h in Headers */,
+				82E725261BECB0BB00C7BAF9 /* TSTableViewDelegate.h in Headers */,
+				82E725271BECB0BB00C7BAF9 /* TSTableViewHeaderSectionView.h in Headers */,
+				82E725401BECBB6C00C7BAF9 /* TSTableViewAppearanceHelper.h in Headers */,
+				82E725291BECB0BB00C7BAF9 /* TSTableViewModel.h in Headers */,
+				82E725141BECB0BB00C7BAF9 /* TSTableViewAppearanceCoordinator.h in Headers */,
+				82E725151BECB0BB00C7BAF9 /* TSTableViewContentHolder.h in Headers */,
+				82E725381BECB9A000C7BAF9 /* TSTableViewContentHolder.m in Headers */,
+				82E725171BECB0BB00C7BAF9 /* TSTableViewExpandControlPanel.h in Headers */,
+				82E725391BECB9A000C7BAF9 /* TSTableViewExpandControlPanel.m in Headers */,
+				82E725191BECB0BB00C7BAF9 /* TSTableViewExpandSection.h in Headers */,
+				82E7253A1BECB9A000C7BAF9 /* TSTableViewExpandSection.m in Headers */,
+				82E7251B1BECB0BB00C7BAF9 /* TSTableViewHeaderPanel.h in Headers */,
+				82E7253B1BECB9A000C7BAF9 /* TSTableViewHeaderPanel.m in Headers */,
+				82E7251D1BECB0BB00C7BAF9 /* TSTableViewHeaderSection.h in Headers */,
+				82E7253C1BECB9A000C7BAF9 /* TSTableViewHeaderSection.m in Headers */,
+				82E7251F1BECB0BB00C7BAF9 /* TSTableViewRow.h in Headers */,
+				82E7253D1BECB9A000C7BAF9 /* TSTableViewRow.m in Headers */,
+				82E725111BECB0BB00C7BAF9 /* TSDefines.h in Headers */,
+				82E725121BECB0BB00C7BAF9 /* TSUtils.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		F6141F6117C6A725003455EB /* TSTableView */ = {
+		82E724E61BECB05C00C7BAF9 /* TSTableView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F6141F7F17C6A725003455EB /* Build configuration list for PBXNativeTarget "TSTableView" */;
+			buildConfigurationList = 82E724EF1BECB05C00C7BAF9 /* Build configuration list for PBXNativeTarget "TSTableView" */;
 			buildPhases = (
-				F6141F5E17C6A725003455EB /* Sources */,
-				F6141F5F17C6A725003455EB /* Frameworks */,
-				F6141F6017C6A725003455EB /* Resources */,
+				82E724E21BECB05C00C7BAF9 /* Sources */,
+				82E724E31BECB05C00C7BAF9 /* Frameworks */,
+				82E724E41BECB05C00C7BAF9 /* Headers */,
+				82E724E51BECB05C00C7BAF9 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -298,222 +233,213 @@
 			);
 			name = TSTableView;
 			productName = TSTableView;
-			productReference = F6141F6217C6A725003455EB /* TSTableView.app */;
-			productType = "com.apple.product-type.application";
+			productReference = 82E724E71BECB05C00C7BAF9 /* TSTableView.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F6141F5A17C6A725003455EB /* Project object */ = {
+		82E724DE1BECB05C00C7BAF9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = TS;
-				LastUpgradeCheck = 0460;
-				ORGANIZATIONNAME = "Viacheslav Radchenko";
+				LastUpgradeCheck = 0710;
+				TargetAttributes = {
+					82E724E61BECB05C00C7BAF9 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
 			};
-			buildConfigurationList = F6141F5D17C6A725003455EB /* Build configuration list for PBXProject "TSTableView" */;
+			buildConfigurationList = 82E724E11BECB05C00C7BAF9 /* Build configuration list for PBXProject "TSTableView" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = F6141F5917C6A725003455EB;
-			productRefGroup = F6141F6317C6A725003455EB /* Products */;
+			mainGroup = 82E724DD1BECB05C00C7BAF9;
+			productRefGroup = 82E724E81BECB05C00C7BAF9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F6141F6117C6A725003455EB /* TSTableView */,
+				82E724E61BECB05C00C7BAF9 /* TSTableView */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F6141F6017C6A725003455EB /* Resources */ = {
+		82E724E51BECB05C00C7BAF9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6141F7017C6A725003455EB /* InfoPlist.strings in Resources */,
-				F6141F7817C6A725003455EB /* Default.png in Resources */,
-				F6141F7A17C6A725003455EB /* Default@2x.png in Resources */,
-				F6141F7C17C6A725003455EB /* Default-568h@2x.png in Resources */,
-				F6141FD217C6A80F003455EB /* InfoPlist.strings in Resources */,
-				F6141FD317C6A80F003455EB /* TSTableViewController.xib in Resources */,
-				F6141FD417C6A80F003455EB /* TSTableViewController~ipad.xib in Resources */,
-				F657420717CD893B00826563 /* TableViewFileIcon.png in Resources */,
-				F657420817CD893B00826563 /* TableViewFolderIcon.png in Resources */,
-				F657420917CD893B00826563 /* TableViewPackageIcon.png in Resources */,
-				F657420A17CD893B00826563 /* TableViewFileIcon@2x.png in Resources */,
-				F657420B17CD893B00826563 /* TableViewFolderIcon@2x.png in Resources */,
-				F657420C17CD893B00826563 /* TableViewPackageIcon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F6141F5E17C6A725003455EB /* Sources */ = {
+		82E724E21BECB05C00C7BAF9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6141F7217C6A725003455EB /* main.m in Sources */,
-				F6141F7617C6A725003455EB /* TSAppDelegate.m in Sources */,
-				F6141FB717C6A76F003455EB /* TSUtils.m in Sources */,
-				F6141FBB17C6A76F003455EB /* TSTableViewContentHolder.m in Sources */,
-				F6141FBC17C6A76F003455EB /* TSTableViewExpandControlPanel.m in Sources */,
-				F6141FBD17C6A76F003455EB /* TSTableViewExpandSection.m in Sources */,
-				F6141FBE17C6A76F003455EB /* TSTableViewHeaderPanel.m in Sources */,
-				F6141FBF17C6A76F003455EB /* TSTableViewHeaderSection.m in Sources */,
-				F6141FC017C6A76F003455EB /* TSTableViewRow.m in Sources */,
-				F6141FC117C6A76F003455EB /* TSTableView.m in Sources */,
-				F6141FC217C6A76F003455EB /* TSTableViewCell.m in Sources */,
-				F6141FC317C6A76F003455EB /* TSTableViewHeaderSectionView.m in Sources */,
-				F6141FC417C6A76F003455EB /* TSTableViewModel.m in Sources */,
-				F6141FD517C6A80F003455EB /* TSTableViewController.m in Sources */,
-				F657419117CD891400826563 /* TSTableViewController+TestDataDefinition.m in Sources */,
+				82E7251A1BECB0BB00C7BAF9 /* TSTableViewExpandSection.m in Sources */,
+				82E7251C1BECB0BB00C7BAF9 /* TSTableViewHeaderPanel.m in Sources */,
+				82E725281BECB0BB00C7BAF9 /* TSTableViewHeaderSectionView.m in Sources */,
+				82E725221BECB0BB00C7BAF9 /* TSTableView.m in Sources */,
+				82E725161BECB0BB00C7BAF9 /* TSTableViewContentHolder.m in Sources */,
+				82E725201BECB0BB00C7BAF9 /* TSTableViewRow.m in Sources */,
+				82E725241BECB0BB00C7BAF9 /* TSTableViewCell.m in Sources */,
+				82E7252A1BECB0BB00C7BAF9 /* TSTableViewModel.m in Sources */,
+				82E7251E1BECB0BB00C7BAF9 /* TSTableViewHeaderSection.m in Sources */,
+				82E725131BECB0BB00C7BAF9 /* TSUtils.m in Sources */,
+				82E725411BECBB6C00C7BAF9 /* TSTableViewAppearanceHelper.m in Sources */,
+				82E725181BECB0BB00C7BAF9 /* TSTableViewExpandControlPanel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		F6141F6E17C6A725003455EB /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F6141F6F17C6A725003455EB /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		F6141FCA17C6A80E003455EB /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F6141FCB17C6A80E003455EB /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		F6141FCC17C6A80E003455EB /* TSTableViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F6141FCD17C6A80E003455EB /* en */,
-			);
-			name = TSTableViewController.xib;
-			sourceTree = "<group>";
-		};
-		F6141FCE17C6A80E003455EB /* TSTableViewController~ipad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F6141FCF17C6A80E003455EB /* en */,
-			);
-			name = "TSTableViewController~ipad.xib";
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		F6141F7D17C6A725003455EB /* Debug */ = {
+		82E724ED1BECB05C00C7BAF9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		F6141F7E17C6A725003455EB /* Release */ = {
+		82E724EE1BECB05C00C7BAF9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
-				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		F6141F8017C6A725003455EB /* Debug */ = {
+		82E724F01BECB05C00C7BAF9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TSTableView/TSTableView-Prefix.pch";
-				INFOPLIST_FILE = "TSTableView/TSTableView-Info.plist";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TSTableView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Viacheslav-Radchenko.TSTableView";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
+				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
-		F6141F8117C6A725003455EB /* Release */ = {
+		82E724F11BECB05C00C7BAF9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TSTableView/TSTableView-Prefix.pch";
-				INFOPLIST_FILE = "TSTableView/TSTableView-Info.plist";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TSTableView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Viacheslav-Radchenko.TSTableView";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F6141F5D17C6A725003455EB /* Build configuration list for PBXProject "TSTableView" */ = {
+		82E724E11BECB05C00C7BAF9 /* Build configuration list for PBXProject "TSTableView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F6141F7D17C6A725003455EB /* Debug */,
-				F6141F7E17C6A725003455EB /* Release */,
+				82E724ED1BECB05C00C7BAF9 /* Debug */,
+				82E724EE1BECB05C00C7BAF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F6141F7F17C6A725003455EB /* Build configuration list for PBXNativeTarget "TSTableView" */ = {
+		82E724EF1BECB05C00C7BAF9 /* Build configuration list for PBXNativeTarget "TSTableView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F6141F8017C6A725003455EB /* Debug */,
-				F6141F8117C6A725003455EB /* Release */,
+				82E724F01BECB05C00C7BAF9 /* Debug */,
+				82E724F11BECB05C00C7BAF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F6141F5A17C6A725003455EB /* Project object */;
+	rootObject = 82E724DE1BECB05C00C7BAF9 /* Project object */;
 }
